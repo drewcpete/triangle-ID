@@ -1,0 +1,16 @@
+label {
+  float:none;
+}
+button {
+  margin: 40px;
+  width: 30%;
+  height: 100px;
+  border-radius: 50%;
+}
+ .iso, .equi, .scal, .nat {
+   display: none;
+ }
+
+p {
+  font-size: 25px;
+}

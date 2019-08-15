@@ -9,22 +9,43 @@
     <title></title>
   </head>
   <body>
-    <h1>Triangle Tracker</h1>
+
+    <h1 class="jumbotron">Triangle Tracker</h1>
+
     <div class="container">
-
-      <form class="" >
-        <label for="#length1">Enter the first length</label>
-        <input id="length1"type="number">
-
-        <label for="#length2">Enter the third length</label>
-        <input id="length2"type="number">
-
-        <label for="#length3">Enter the second length</label>
-        <input id="length3"type="number">
-
-
+      <form id="triangleForm">
+        <div class="row">
+          <div class="col-md-4">
+            <label for="#length1">Enter the first length:</label>
+            <br>
+            <input id="length1"type="number">
+          </div>
+          <div class="col-md-4">
+              <label for="#length2">Enter the second length:</label>
+              <br>
+              <input id="length2"type="number">
+          </div>
+          <div class="col-md-4">
+            <label for="#length3">Enter the third length:</label>
+            <br>
+            <input id="length3"type="number">
+          </div>
+        </div>
+        <button class="btn btn-dark" type="submit" name="button">BUTTON</button>
       </form>
-      <button class="btn btn-dark" type="button" name="button"></button>
-  </div>
+    </div>
+    <br>
+    <div class="iso alert alert-danger" role="alert">
+      <p>Your triangle is an isosceles triangle!</p>
+    </div>
+    <div class="equi alert alert-danger" role="alert">
+      <p>Your triangle is an equilatoral triangle!</p>
+    </div>
+    <div class="scal alert alert-danger" role="alert">
+      <p>Your triangle is an scalene triangle!</p>
+    </div>
+    <div class="nat alert alert-danger" role="alert">
+      <p>Your triangle is NOT A FUCKING TRIANGLE! Don't you dare come at us with that bullshit.  We're watching you.</p>
+    </div>
   </body>
 </html>
